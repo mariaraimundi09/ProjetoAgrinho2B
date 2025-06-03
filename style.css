@@ -7,17 +7,22 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: linear-gradient(to bottom, #fff9f0, #e0f7fa);
-  color: #333;
+  background: linear-gradient(to bottom, #fff4e2, #e0f7fa);
+  color: #464444;
   padding: 20px;
 }
 
 header {
-  background-color: #ffcc80;
+  background-color: #cc671f;
   text-align: center;
   padding: 40px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1, header p {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff2e4;
 }
 
 header h1 {
@@ -84,4 +89,26 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
   color: #555;
+}
+
+.rodape-centralizado {
+  position: relative;
+  background: #cc671f;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.logo-parana-esquerda {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 230px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.logo-parana-esquerda:hover {
+  opacity: 1;
 }
